@@ -1,4 +1,3 @@
-import * as Ember from 'Ember';
 export function EmberChain(constructor) {
     const mixin = Ember.Mixin.create(), parent = Object.getPrototypeOf(constructor);
     mixin.properties = mixin.properties || {};

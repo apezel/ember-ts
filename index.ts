@@ -1,4 +1,4 @@
-import * as Ember from 'Ember';
+declare var Ember;
 
 export function EmberChain(constructor: Function) {
     const mixin:any = Ember.Mixin.create(),

@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "allowJs": true,
     "moduleResolution": "node",
-    "noEmitOnError": true,
-    "noEmit": true,
     "baseUrl": ".",
+    "declaration": true,
     "paths": {
       "*": ["node_modules/@types/*"]
     }
